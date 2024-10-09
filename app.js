@@ -1,6 +1,6 @@
 // Placeholder function to simulate fetching data from the API
 function fetchData() {
-    fetch('https://3.27.219.55:5000/fetchCryptoData') // Replace with your API URL
+    fetch('http://172.31.43.59:5000/fetchCryptoData') // Replace with your API URL
         .then(response => response.json())
         .then(data => {
             const labels = data.map(item => item.name); // Replace with actual crypto names
