@@ -33,3 +33,9 @@ canvas {
     max-width: 100%;
     margin: 20px 0;
 }
+
+.chart-container {
+    width: 100%;
+    min-height: 500px;
+    height: calc(100vh - 200px); /* This will expand the chart vertically */
+}
